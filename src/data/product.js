@@ -1,3 +1,4 @@
+//Creacion de la informacion de la app de productos financieros
 export const products = [
   {
     id: 1,

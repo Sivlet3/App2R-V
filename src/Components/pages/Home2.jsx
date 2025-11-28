@@ -3,7 +3,7 @@ import ProductCard from '../common/ProductCard';
 import { products } from '../data/product';
 // import './styles/Home.css'; - por si se quiere agregar mas cosas de estilo 
 
-const Home = () => {
+const Home2 = () => {
 return (
     <main>
     <section id="hero" className="hero container">
@@ -32,4 +32,4 @@ return (
 );
 };
 
-export default Home;
+export default Home2;

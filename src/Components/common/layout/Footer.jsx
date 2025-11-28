@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 
-export const Footer = () => {
+const Footer = () => {
 return (
     <footer className="site-footer">
     <div className="container footer-inner">
@@ -14,3 +14,4 @@ return (
 );
 };
 
+export default Footer;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ProductCard from '../common/ProductCard';
 import { products } from '../data/product';
-import './styles/Simulator.css';
+//import '../styles/simulador';
 
 const Simulator = () => {
 const [searchName, setSearchName] = useState('');

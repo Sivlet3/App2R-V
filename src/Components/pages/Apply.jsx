@@ -1,6 +1,6 @@
 // aply para formulario y captura de datos 
 import React, { useState } from 'react';
-import { products } from '../data/products';
+import { products } from './data/product';
 import './styles/Apply.css';
 
 const Apply = () => {

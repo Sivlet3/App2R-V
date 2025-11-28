@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import ProductCard from '../components/common/ProductCard';
-import { products } from '../data/products';
+import ProductCard from '../common/ProductCard';
+import { products } from '../data/product';
 import './styles/Simulator.css';
 
 const Simulator = () => {

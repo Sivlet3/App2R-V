@@ -51,3 +51,4 @@ export const products = [
     description: "Líneas para empresas y emprendedores con condiciones por volumen."
   }
 ];
+export default products;

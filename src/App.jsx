@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/layout/Header';
-import Footer from './components/layout/Footer';
+import Header from './Components/common/layout/Header';
+import Footer from './Components/common/layout/Footer';
 import WhatsAppFloat from './components/common/WhatsAppFloat';
-import Home from './pages/Home';
-import Simulator from './pages/Simulator';
-import Apply from './pages/Apply';
+import Home from './Components/pages/Home';
+import Simulator from './Components/pages/Simulador';
+import Apply from './Components/pages/Apply';
 import './App.css';
 
 function App() {

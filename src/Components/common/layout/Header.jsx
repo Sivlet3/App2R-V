@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
-
-export const Header = () => {
+const Header = () => {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 return (
@@ -28,4 +27,4 @@ return (
     </header>
 );
 };
-
+export default Header;

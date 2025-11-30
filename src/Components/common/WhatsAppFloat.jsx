@@ -1,5 +1,6 @@
 import React from 'react';
 import './WhatsAppFloat.css';
+import icon from '../assets/whatsap.png'
 
 const WhatsAppFloat = () => {
   return (
@@ -10,7 +11,7 @@ const WhatsAppFloat = () => {
       rel="noopener noreferrer"
       aria-label="WhatsApp Contact"
     >
-      <img src="/images/whatsapicon.png" alt="WhatsApp" />
+      <img src="icon"/>
     </a>
   );
 };

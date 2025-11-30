@@ -1,8 +1,8 @@
 import React from 'react';
-// import './Page1.css'; // si quieres estilos separados
 import '../styles/Page1.css';
 import { Link } from 'react-router-dom';
 import './Simulador.jsx';
+import Logo from '../assets/logo.png';
 
 export default function Hero() {
 return (
@@ -21,11 +21,11 @@ return (
 
     <div className="hero-right">
         <div className="floating-card">
-        <img
-            src="/promo-vivienda.png"
-            alt="Promoción vivienda"
-            className="promo-img"
-        />
+            <img
+                src={Logo}
+                alt="Promoción vivienda"
+                className="promo-img"
+            />
         </div>
         <div className="landing-section">
 <div className="text">

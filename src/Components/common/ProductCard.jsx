@@ -10,7 +10,7 @@ const formatCurrency = (amount) => {
     }).format(amount);
 };
 
- return (
+return (
     <div className="card">
     <img 
         src={product.image} 

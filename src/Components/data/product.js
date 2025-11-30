@@ -1,4 +1,9 @@
 //Creacion de la informacion de la app de productos financieros
+import libreInversionImg from '../assets/libre invercion.png';
+import vehiculoImg from '../assets/vehiculo.png';
+import viviendaImg from '../assets/casa.png';
+import educativoImg from '../assets/estudio.png';
+import empresarialImg from '../assets/empresarial.png';
 export const products = [
   {
     id: 1,
@@ -7,7 +12,7 @@ export const products = [
     max: 50000000,
     tasa: 19,
     plazo: 60,
-    image: "/images/Linversion.png",
+    image: libreInversionImg,
     description: "Uso libre para inversión o consumo. Proceso rápido y digital."
   },
   {
@@ -17,7 +22,7 @@ export const products = [
     max: 80000000,
     tasa: 13,
     plazo: 84,
-    image: "/images/Car.png",
+    image:vehiculoImg,
     description: "Financiación para compra de vehículos nuevos o usados."
   },
   {
@@ -27,7 +32,7 @@ export const products = [
     max: 300000000,
     tasa: 9,
     plazo: 240,
-    image: "/images/casa.png",
+    image: viviendaImg,
     description: "Compra, mejora o construcción de vivienda con condiciones preferenciales."
   },
   {
@@ -37,7 +42,7 @@ export const products = [
     max: 30000000,
     tasa: 12,
     plazo: 60,
-    image: "/images/estudios.png",
+    image: educativoImg,
     description: "Financiación para estudios, pregrado o posgrado."
   },
   {
@@ -47,7 +52,7 @@ export const products = [
     max: 500000000,
     tasa: 11,
     plazo: 120,
-    image: "/images/Empresarial.png",
+    image: empresarialImg,
     description: "Líneas para empresas y emprendedores con condiciones por volumen."
   }
 ];

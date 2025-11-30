@@ -1,7 +1,8 @@
 import React from 'react';
 import ProductCard from '../common/ProductCard';
 import { products } from '../data/product';
-// import './styles/Home.css'; - por si se quiere agregar mas cosas de estilo 
+import logo1 from '../assets/logo.png';
+// import './styles/Home.css'; - por si quiero agregar mas cosas de estilo 
 
 const Home2 = () => {
 return (
@@ -13,9 +14,6 @@ return (
         <a className="btn primary" href="/simulador">Ir al simulador</a>
         </div>
 
-        <div className="hero-right">
-        <div className="illustration-placeholder" aria-hidden="true">[Pensando]</div>
-        </div>
     </section>
 
     <section id="catalogo" className="container section">

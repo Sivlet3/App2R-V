@@ -20,7 +20,7 @@ return (
 
     <section id="catalogo" className="container section">
         <h2>Productos disponibles</h2>
-        <p className="muted">Datos fijos — actividad S20 EA1</p>
+        <p className="muted"></p>
 
         <div className="cards-grid" id="catalogCards">
         {products.map(product => (

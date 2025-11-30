@@ -126,20 +126,32 @@ html, body {
 /* ============================= */
 /*          SECTIONS             */
 /* ============================= */
-.section {
-  padding: 60px 0;
+
+/* ============================= */
+/*        LANDING SECTION        */
+/* ============================= */
+.landing-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
 }
+
+
+
 
 /* ============================= */
 /*         CARDS GRID            */
 /* ============================= */
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
-  gap: 22px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem; /* Reducimos el gap entre las cards */
+  margin-top: 1rem;
 }
-
-.card {
+/* ===========Cards Antiguas================== */
+/* .card {
   background: var(--card);
   border-radius: var(--radius);
   padding: 22px;
@@ -183,6 +195,7 @@ html, body {
   font-size: 0.95rem;
   margin-bottom: 12px;
 }
+*/
 
 /* ============================= */
 /*   Buttons                     */
@@ -306,21 +319,7 @@ html, body {
 
 
 
-/*
-:root{
-  --accent:#e60012;
-  --accent-dark:#c40010;
-  --bg:#f5f6f8;
-  --card:#ffffff;
-  --muted:#030000;
-  --radius:10px;
-  --container:100%px;
-}
 
-*{box-sizing:border-box;margin:0;padding:0}
-html,body{
-  height:100%;font-family:Inter, "Segoe UI", Roboto, Arial, sans-serif;background:var(--bg);color:#000000}
-.container{width:92%;max-width:var(--container);margin:0 auto;padding:18px}
 
 /* Fondo de la aplicación */
 .App {

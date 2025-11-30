@@ -1,23 +1,42 @@
 import React from 'react';
 // import './Page1.css'; // si quieres estilos separados
+import '../styles/Page1.css';
+import { Link } from 'react-router-dom';
+import './Simulador.jsx';
 
-const Page1 = () => {
+export default function Hero() {
 return (
-    <div className="feria-container">
-    <h1>¡Llegó el momento de estrenar su carro!</h1>
-    <p>
-        Estrene carro y aproveche los beneficios que tenemos: <br />
-        <strong>Tasas especiales</strong>, aprobación desde la App en <strong>5 minutos</strong> y planes de financiación a la medida.
-    </p>
-    <button className="btn-conocer">Conocer más</button>
+    <section className="hero-section">
+    <div className="hero-left">
+        <h1 className="hero-title">Disfrute tasas preferenciales</h1>
+        <p className="hero-sub">
+        Desde el 9%* E.A. con su Cuenta Pensión o Cuenta Nómina Davivienda activa.
+        </p>
 
-    <div className="card-feria">
-        <img src="/carro-negro.png" alt="Carro en promoción" />
-        <p>Lo esperamos en la feria nacional del vehículo</p>
-        <span>Del 14 al 28 noviembre 2025</span>
+        <Link to="/Simulador">
+        <button className="hero-btn">Conocer más</button>
+</Link>
+
     </div>
+
+    <div className="hero-right">
+        <div className="floating-card">
+        <img
+            src="/promo-vivienda.png"
+            alt="Promoción vivienda"
+            className="promo-img"
+        />
+        </div>
+        <div className="landing-section">
+<div className="text">
+
+</div>
+<div className="image">
+
+</div>
+</div>
+
     </div>
+    </section>
 );
-};
-
-export default Page1;
+}

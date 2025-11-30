@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/common/layout/Header';
 import Footer from './Components/common/layout/Footer';
 import WhatsAppFloat from './Components/common/WhatsAppFloat';
-import Home from './Components/pages/landing';
 import Simulator from './Components/pages/Simulador';
 import Apply from './Components/pages/Apply';
 import './App.css';

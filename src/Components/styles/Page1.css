@@ -1,0 +1,93 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  min-height: 480px;
+  background: white;
+  margin-top: -40px; /* SUBE el texto */
+}
+
+.hero-left {
+  max-width: 520px;
+}
+
+
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #111;
+  line-height: 1.2;
+}
+
+.hero-sub {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #4a4a4a;
+}
+
+.hero-btn {
+  margin-top: 30px;
+  background: #d90010;
+  padding: 14px 36px;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.hero-btn:hover {
+  background: #b3000c;
+}
+
+/* Card flotante a la derecha */
+.hero-right {
+position: relative;
+
+
+}
+
+.floating-card {
+width: 550px;       /* ancho */
+height: 400px;      /* alto */
+overflow: hidden;   /* evita que el contenido se salga */
+padding: 20px;
+border-radius: 20px;
+display: flex; 
+flex-direction: flex;
+justify-content: center;
+align-items: center; /* centra el contenido */
+border: 2px solid #e3e3e3;
+border-radius: 20px;
+transform: translate(70px, 100px); /* mueve horizontal y verticalmente */
+}
+
+
+.promo-img {
+  width: 380px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Animación */
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+/* 📱 Responsive */
+@media (max-width: 900px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .floating-card {
+    margin-top: 20px;
+  }
+}

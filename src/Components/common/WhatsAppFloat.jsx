@@ -11,7 +11,7 @@ const WhatsAppFloat = () => {
       rel="noopener noreferrer"
       aria-label="WhatsApp Contact"
     >
-      <img src=""/>
+      <img src={icon} alt="WhatsApp" />
     </a>
   );
 };

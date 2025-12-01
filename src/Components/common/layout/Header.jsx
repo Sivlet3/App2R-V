@@ -20,7 +20,7 @@ return (
 
         <nav className={`main-nav ${isMenuOpen ? 'open' : ''}`}>
         <a className="nav-link" href="/">Inicio</a>
-        <a className="nav-link" href="/simulador">Simulador</a>
+        <a className="nav-link" href="/simulador">Catalogo</a>
         <a className="nav-link" href="/solicitar">Solicitar Crédito</a>
         </nav>
     </div>

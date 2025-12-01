@@ -62,16 +62,6 @@ Luego abre en el navegador:
 ![Simulator Screenshot](/src/Components/assets/screenshot3.jpg)
 
 
-### 🎥 GIF de funcionamiento
-
-```markdown
-![Demo GIF](./src/assets/demo.gif)
-```
-
-*(Asegúrate de colocar las imágenes dentro de `src/assets/`.)*
-
----
-
 ## 📁 **Estructura del Proyecto**
 
 ```plaintext

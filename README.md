@@ -1,16 +1,91 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# 🌟 **{CreditSmart}**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 👤 **Desarrollado por:** *{Elvis Antonio Guerra Jimenez}*
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📝 **Descripción del Proyecto**
 
-## Expanding the ESLint configuration
+{"Esta es una aplicación web construida con React, JavaScript y Vite. Su objetivo es ofrecer una experiencia moderna, rápida y responsiva, aprovechando componentes reutilizables, rutas dinámicas y un diseño intuitivo."}
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 **Tecnologías Utilizadas**
+
+* ⚛️ **React**
+* ⚡ **Vite**
+* 🧭 **React Router**
+* 🎨 **CSS ** ***
+* 🔧 **JavaScript (ES6+)**
+
+---
+
+## 📦 **Instalación y Ejecución**
+
+Para correr el proyecto localmente:
+
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/Sivlet3/App2R-V
+
+# 2. Entrar a la carpeta del proyecto
+cd {nombre-del-proyecto}
+
+# 3. Instalar dependencias
+npm install
+
+# 4. Ejecutar el servidor de desarrollo
+npm run dev
+```
+
+Luego abre en el navegador:
+👉 **[http://localhost:5173/](http://localhost:5173/)**
+
+---
+
+## 🖼️ **Capturas de Pantalla**
+
+### 📌 Vista principal
+
+```markdown
+![Vista principal](./src/Components/assets/escreenshot.jpg)
+![Vista principal](./src/Components/assets/escreenshot1.jpg)
+![Vista principal](./src/Components/assets/escreenshot2.jpg)
+```
+
+### 🎥 GIF de funcionamiento
+
+```markdown
+![Demo GIF](./src/assets/demo.gif)
+```
+
+*(Asegúrate de colocar las imágenes dentro de `src/assets/`.)*
+
+---
+
+## 📁 **Estructura del Proyecto**
+
+```plaintext
+src/
+├─ components/
+├─ pages/
+├─ hooks/
+├─ router/
+├─ assets/
+├─ App.jsx
+└─ main.jsx
+```
+
+---
+
+## 📮 **Contacto**
+
+📧 **{tu correo}**
+🐙 GitHub: **[https://github.com/Sivlet3/App2R-V}](https://github.com/Sivlet3/App2R-V)**
+
+
+
+

@@ -50,11 +50,17 @@ Luego abre en el navegador:
 
 ### 📌 Vista principal
 
-```markdown
-![Vista principal](./src/Components/assets/escreenshot.jpg)
-![Vista principal](./src/Components/assets/escreenshot1.jpg)
-![Vista principal](./src/Components/assets/escreenshot2.jpg)
-```
+## 📸 Capturas de pantalla
+
+### Página principal
+![Home Screenshot](/src/Components/assets/escreenshot.jpg)
+
+### Catálogo de créditos
+![Credits Screenshot](/src/Components/assets/screenshot2.jpg)
+
+### Simulador
+![Simulator Screenshot](/src/Components/assets/screenshot3.jpg)
+
 
 ### 🎥 GIF de funcionamiento
 

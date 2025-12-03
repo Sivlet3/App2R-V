@@ -1,6 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ProductCard from '../common/ProductCard';
 import { products } from '../data/product';
+import Calculadora from './Calculadora';
+
+
 
 // import './styles/Home.css'; - por si quiero agregar mas cosas de estilo 
 
@@ -11,7 +15,7 @@ return (
         <div className="hero-left">
         <h1>Catálogo de Créditos</h1>
         <p className="lead">Consulta nuestras opciones de crédito. Elige, simula y solicita en línea.</p>
-        <a className="btn primary" href="/simulador">Ir al simulador</a>
+        <Link className="btn primary" to="/Calculadora">Ir al simulador</Link>
         </div>
 
     </section>

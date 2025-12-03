@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Page1.css';
 import { Link } from 'react-router-dom';
-import './Simulador.jsx';
+import './Simulador';
 import Logo from '../assets/logo.png';
 
 export default function Hero() {

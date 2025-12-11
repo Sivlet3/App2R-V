@@ -14,13 +14,7 @@ return (
         <Catalogo />
     </section>
 
-    <section id="Simulator">
-        <Simulator />
-    </section>
-
-    <section id="formulario">
-        <Formulario />
-    </section>
+    
 
 
     </>

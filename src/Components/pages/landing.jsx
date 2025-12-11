@@ -1,7 +1,6 @@
 import Home from "./Page1";
 import Catalogo from "./Home2";
-import Simulator from "./Simulador";
-import Formulario from "./Apply";
+
 
 export default function Landing() {
 return (

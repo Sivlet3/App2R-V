@@ -1,30 +1,34 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
+
 const Header = () => {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 return (
-    <header className="site-header">
+<header className="site-header">
     <div className="container header-inner">
-        <div className="brand">
+    <div className="brand">
         <div className="logo-placeholder">CreditSmart</div>
-        </div>
+    </div>
 
-        <button 
+    <button 
         className="mobile-toggle" 
         aria-label="Abrir menú"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
+    >
         ☰
-        </button>
+    </button>
 
-        <nav className={`main-nav ${isMenuOpen ? 'open' : ''}`}>
-        <a className="nav-link" href="/">Inicio</a>
-        <a className="nav-link" href="/simulador">Catalogo</a>
-        <a className="nav-link" href="/solicitar">Solicitar Crédito</a>
-        </nav>
+    <nav className={`main-nav ${isMenuOpen ? 'open' : ''}`}>
+        <Link className="nav-link" to="/">Inicio</Link>
+        <Link className="nav-link" to="/catalogo">Catálogo</Link>
+        <Link className="nav-link" to="/solicitar">Solicitar Crédito</Link>
+    </nav>
     </div>
-    </header>
+</header>
 );
 };
+
 export default Header;
+

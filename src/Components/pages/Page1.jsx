@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Page1.css';
 import { Link } from 'react-router-dom';
-import './Simulador';
+import './Catalogo';
 import Logo from '../assets/logo.png';
 
 export default function Hero() {
@@ -13,7 +13,7 @@ return (
         Desde el 9%* E.A. con su Cuenta Pensión o Cuenta Nómina Davivienda activa.
         </p>
 
-        <Link to="/Simulador">
+        <Link to="/Catalogo">
         <button className="hero-btn">Conocer más</button>
 </Link>
 

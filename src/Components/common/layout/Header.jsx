@@ -24,6 +24,7 @@ return (
         <Link className="nav-link" to="/">Inicio</Link>
         <Link className="nav-link" to="/catalogo">Catálogo</Link>
         <Link className="nav-link" to="/solicitar">Solicitar Crédito</Link>
+        <Link className="nav-link" to="/solicitudes">Solicitudes</Link>
     </nav>
     </div>
 </header>

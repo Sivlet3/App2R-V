@@ -9,6 +9,7 @@ import './App.css';
 import Landing from './Components/pages/landing';
 import Page1 from './Components/pages/Page1';
 import Calculadora from './Components/pages/Calculadora';
+import ApplicationsList from './Components/pages/ApplyList';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/catalogo" element={<Catalogo />} />
           <Route path="/solicitar" element={<Apply />} />
+          <Route path="/solicitudes" element={<ApplicationsList />} />
           <Route path="/page1" element={<Page1 />} />
           <Route path="/Calculadora" element={<Calculadora />} />
 

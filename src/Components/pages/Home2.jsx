@@ -3,11 +3,6 @@ import { Link } from 'react-router-dom';
 import ProductCard from '../common/ProductCard';
 import { products } from '../data/product';
 
-
-
-
-
-
 // import './styles/Home.css'; - por si quiero agregar mas cosas de estilo 
 
 const Home2 = () => {

@@ -1,12 +1,12 @@
 // creditApplicationsCRUD.js
 import { db } from './firebaseConfig.js';
-import { collection, addDoc, getDocs, doc, updateDoc, deleteDoc } from 'firebase/firestore';
+import { collection, addDoc, getDocs, doc, updateDoc, deleteDoc } from 'firebase/firestore'; //addDoc nos ayuda con la persistencia 
 
 // Nombre de la colección
 const collectionName = 'creditApplications';
 
 // ======================================================
-// 1️⃣ Agregar nueva solicitud
+//  Agregar nueva solicitud -- guarda en Firestore
 // ======================================================
 export const addApplication = async (applicationData) => {
 try {
@@ -23,7 +23,7 @@ throw error;
 };
 
 // ======================================================
-// 2️⃣ Obtener todas las solicitudes
+//  Obtener todas las solicitudes
 // ======================================================
 export const getApplications = async () => {
 try {
@@ -40,7 +40,7 @@ throw error;
 };
 
 // ======================================================
-// 3️⃣ Actualizar solicitud existente
+//  Actualizar solicitud existente
 // ======================================================
 export const updateApplication = async (id, updatedData) => {
 try {
@@ -53,7 +53,7 @@ throw error;
 };
 
 // ======================================================
-// 4️⃣ Eliminar solicitud
+//  Eliminar solicitud
 // ======================================================
 export const deleteApplication = async (id) => {
 try {

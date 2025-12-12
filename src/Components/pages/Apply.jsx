@@ -6,7 +6,7 @@ import '../styles/Apply.css';
 import { addApplication } from '../../firebase/creditApplicationsCRUD';
 
 const Apply = () => {
-const { state } = useLocation();
+const { state } = useLocation(); //pasa datos desde la calculadora
 
 const [formData, setFormData] = useState({
 nombre: '',

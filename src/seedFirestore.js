@@ -1,5 +1,5 @@
 /*import { db } from './firebase/firebaseConfig.js';
-import { collection, addDoc } from 'firebase/firestore';
+import { collection, addDoc } from 'firebase/firestore'; //
 import libreInversionImg from './Components/assets/libre invercion.png';
 import vehiculoImg from './Components/assets/vehiculo.png';
 import viviendaImg from './Components/assets/casa.png';

@@ -13,7 +13,7 @@ export const products = [
     tasa: 19,
     plazo: 60,
     image: libreInversionImg,
-    requirements: "Mayor de 18 años, ingresos mínimos de $1.200.000",
+    description: "Financiaciá todo lo que quieras."
   },
   {
     id: 2,
